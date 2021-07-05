@@ -6,12 +6,12 @@ public class Client {
     public static void main(String[] args) throws Exception {   
         
         
-        var camilo = new Client();
-        System.out.println(camilo.getname());
+        var camilo = new Client();  // se instancia un objeto llamado CAMILO de la clase CLiente.
+        System.out.println(camilo.getname()); // imprime el objeto con el atributo nombre por defecto.
 
 
-        camilo.setName();
-        System.out.println("El nuevo nombre es: " + camilo.getname());
+        camilo.setName();  // asigna un nuevo valor a la variable nombre.
+        System.out.println("El nuevo nombre es: " + camilo.getname());  // imprime el atributo nombre con el nuevo valor asignado
 
         
     }
@@ -79,17 +79,5 @@ public class Client {
     public int getSalary(){
         return salary;
     }
-
-
-   
-        
-        
-    
-
-     
-
- 
-
-    
 }
 
